@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "name": "Maggie Goyette",
+    "phone": "(497) 604-4609 x399",
+    "email": "Brant_Goodwin@hotmail.com",
+    "job": "Regional Brand Associate"
+  },
+  {
+    "name": "Sara Goodwin",
+    "phone": "(857) 844-6624 x070",
+    "email": "Sabryna22@gmail.com",
+    "job": "Legacy Directives Designer"
+  },
+  {
+    "name": "Lula Macejkovic",
+    "phone": "1-636-545-2830 x86390",
+    "email": "Damion71@yahoo.com",
+    "job": "Investor Applications Analyst"
+  },
+  {
+    "name": "Nancy Waelchi",
+    "phone": "388-526-7337 x765",
+    "email": "Flavie_Strosin@gmail.com",
+    "job": "Senior Intranet Consultant"
+  },
+  {
+    "name": "Katrina Runolfsson",
+    "phone": "1-259-298-4178",
+    "email": "Jarvis_Armstrong@yahoo.com",
+    "job": "National Creative Associate"
+  }
+]
