@@ -1,5 +1,15 @@
-import { PATH_DB } from '../constants/contacts.js';
+import fs from 'fs/promises';
+import { PATH_DB } from '../constants/constants.js';
 
-export const removeAllContacts = async () => {};
+export const removeAllContacts = async () => {
+  const contactsArr = [];
+
+  try {
+    await fs.writeFile(PATH_DB, contactsArr);
+    console.log('Дані успішно видалені.');
+  } catch (err) {
+    console.error('Помилка видалення:', err);
+  }
+};
 
 await removeAllContacts();
