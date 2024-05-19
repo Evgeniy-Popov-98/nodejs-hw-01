@@ -9,7 +9,6 @@ export const addOneContact = async () => {
 
   try {
     data = await fs.readFile(PATH_DB);
-    console.log('Вміст файлу:', JSON.parse(data));
   } catch (err) {
     console.error('Помилка читання файлу:', err);
   }

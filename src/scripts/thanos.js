@@ -17,7 +17,15 @@ export const thanos = async () => {
       newContactsArr.push(contactsArr[i]);
     }
   }
-  console.log(newContactsArr.length);
+
+  const newData = JSON.stringify(newContactsArr);
+
+  try {
+    await fs.writeFile(PATH_DB, newData);
+    console.log('Дані успішно записані у файл.');
+  } catch (err) {
+    console.error('Помилка запису у файл:', err);
+  }
 };
 
 await thanos();
